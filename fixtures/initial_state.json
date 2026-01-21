@@ -1,0 +1,97 @@
+{
+  "commander": {
+    "name": "Commander",
+    "origin": "Foundry",
+    "visual_anchor": "scarred hands and a rust-stained coat",
+    "traits": {
+      "resolve": 1
+    },
+    "ideology": "Pragmatism"
+  },
+  "world": {
+    "turn": 1,
+    "season": "Autumn",
+    "phase": "Morning",
+    "settlement_tier": "Encampment",
+    "resources": {
+      "food": 10,
+      "wood": 10,
+      "stone": 0,
+      "iron": 0
+    },
+    "vitals": {
+      "health": 80,
+      "morale": 60,
+      "defense": 20
+    },
+    "structures": [
+      {
+        "structure_id": "palisade",
+        "name": "Palisade"
+      }
+    ],
+    "map_grid": [
+      [
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false }
+      ],
+      [
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false }
+      ],
+      [
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false }
+      ],
+      [
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false }
+      ],
+      [
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false },
+        { "tile_type": "Forest", "explored": false }
+      ]
+    ]
+  },
+  "survivors": {
+    "roster": [
+      {
+        "survivor_id": "s1",
+        "name": "Mara",
+        "role": "Scout",
+        "status": "Healthy",
+        "afflictions": []
+      },
+      {
+        "survivor_id": "s2",
+        "name": "Garrick",
+        "role": "Smith",
+        "status": "Healthy",
+        "afflictions": []
+      }
+    ],
+    "deceased": []
+  },
+  "threats": {
+    "active_threats": []
+  },
+  "flags": {
+    "friction": 10,
+    "resolve": 30
+  }
+}
